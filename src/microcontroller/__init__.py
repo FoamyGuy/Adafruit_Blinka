@@ -138,4 +138,4 @@ elif chip_id == ap_chip.RP2040_U2IF:
 elif "sphinx" in sys.modules:
     pass
 else:
-    raise NotImplementedError("Microcontroller not supported:", chip_id)
+    print("WARNING: Microcontroller not supported:", chip_id)
